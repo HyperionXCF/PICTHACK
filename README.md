@@ -1,8 +1,6 @@
 # Question Paper Generator App
   
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
-  
+This is a project built with [Convex](https://convex.dev) as its backend.  
 This project is connected to the Convex deployment named [`impressive-dogfish-957`](https://dashboard.convex.dev/d/impressive-dogfish-957).
   
 ## Project structure
@@ -13,10 +11,6 @@ The backend code is in the `convex` directory.
   
 `npm run dev` will start the frontend and backend servers.
 
-## App authentication
-
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
-
 ## Developing and deploying your app
 
 Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
@@ -26,4 +20,4 @@ Check out the [Convex docs](https://docs.convex.dev/) for more information on ho
 
 ## HTTP API
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+User-defined http routes are defined in the `convex/router.ts` file.
